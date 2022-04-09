@@ -219,7 +219,7 @@ button {
     width: 100%;
     float: left;
     background-color: #1a1a1a;
-    height: auto;
+    height: 10%;
     padding-top: 10px;
     padding-bottom: 10px;
     position: fixed;
@@ -227,7 +227,8 @@ button {
 }
 
 .logo {
-    width: 100%;
+    width: 55%;
+    height: 15%;
     float: left;
     text-align: center;
 }
@@ -741,4 +742,13 @@ input.email-bt::placeholder {
     background: #f8ca12;
     color: #fff;
 }
+
+.modal-header {
+    background: purple;
+    color: #fff;
+  }
+  .required:after {
+    content: "*";
+    color: red;
+  }
 
